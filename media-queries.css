@@ -1,9 +1,14 @@
 /* THE DESKTOP SETTINGS*/
-/* Above 750px */
+/* Above 700px */
 
 /******************/
 /* Global Styles */
 /******************/
+
+main {
+  /* To align the content such as the design file */
+  translate: 0 21px;
+}
 
 /******************/
 /* Component Styles */
@@ -21,9 +26,5 @@
 
   .preview-card__description {
     margin-bottom: 58px;
-  }
-
-  main {
-    translate: 0 21px;
   }
 }
