@@ -33,7 +33,7 @@ body {
 /* Component Styles */
 /******************/
 
-.section-preview-card {
+.article-preview-card {
   max-width: 20.4375rem;
 
   /* The Grid Template */
@@ -127,7 +127,7 @@ body {
   line-height: 1.5625rem;
   color: inherit;
 
-  transition: all 0.7s;
+  transition: background-color 0.3s;
 
   /* To center the text */
   display: flex;
