@@ -1,20 +1,20 @@
 /* THE DESKTOP SETTINGS*/
 /* Above 700px */
 
-/******************/
-/* Global Styles */
-/******************/
-
-main {
-  /* To align the content such as the design file */
-  translate: 0 21px;
-}
-
-/******************/
-/* Component Styles */
-/******************/
-
 @media (min-width: 700px) {
+  /******************/
+  /* Global Styles */
+  /******************/
+
+  main {
+    /* To align the content such as the design file */
+    translate: 0 21px;
+  }
+
+  /******************/
+  /* Component Styles */
+  /******************/
+
   .section-preview-card {
     max-width: 920px;
 
