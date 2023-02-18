@@ -1,14 +1,14 @@
 /* THE DESKTOP SETTINGS*/
 /* Above 700px */
 
-@media (min-width: 700px) {
+@media (min-width: 43.75em) {
   /******************/
   /* Global Styles */
   /******************/
 
   main {
     /* To align the content such as the design file */
-    translate: 0 21px;
+    translate: 0 1.3125rem;
   }
 
   /******************/
@@ -16,7 +16,7 @@
   /******************/
 
   .section-preview-card {
-    max-width: 920px;
+    max-width: 57.5rem;
 
     /* The Grid Template */
     display: grid;
@@ -25,6 +25,6 @@
   }
 
   .preview-card__description {
-    margin-bottom: 58px;
+    margin-bottom: 3.625rem;
   }
 }
