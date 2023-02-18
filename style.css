@@ -44,6 +44,8 @@ body {
   /* To border radius */
   border-radius: 8px;
   overflow: hidden;
+
+  margin: 40px 0;
 }
 
 .preview-card {
