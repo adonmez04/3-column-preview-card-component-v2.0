@@ -5,7 +5,6 @@
 - [Frontend Mentor - 3-column-preview-card-component-v2.0](#frontend-mentor---3-column-preview-card-component-v20)
   - [Welcome! 👋](#welcome-)
   - [Links](#links)
-  - [Overview](#overview)
   - [Author](#author)
 
 ## Welcome! 👋
@@ -22,7 +21,7 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 - [The Challenge Page](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
 
-## Overview
+<!-- ## Overview -->
 
 <!-- ## The Problems and Solutions -->
 

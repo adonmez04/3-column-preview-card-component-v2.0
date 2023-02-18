@@ -1,0 +1,25 @@
+/* THE DESKTOP SETTINGS*/
+/* Above 750px */
+
+/******************/
+/* Global Styles */
+/******************/
+
+/******************/
+/* Component Styles */
+/******************/
+
+@media (min-width: 700px) {
+  .section-preview-card {
+    max-width: 920px;
+
+    /* The Grid Template */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .preview-card__description {
+    margin-bottom: 58px;
+  }
+}

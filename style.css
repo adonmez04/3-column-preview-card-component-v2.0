@@ -1,0 +1,146 @@
+/* THE MOBILE FIRST SOLUTION */
+/* Under 750px */
+
+/* To import the font styles */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+/******************/
+/* Global Styles */
+/******************/
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-size: 15px;
+
+  /* To center the content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******************/
+/* Component Styles */
+/******************/
+
+.section-preview-card {
+  max-width: 327px;
+
+  /* The Grid Template */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+
+  /* To border radius */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.preview-card {
+  max-width: 100%;
+  padding: 48px;
+
+  /* The Flexbox Template */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+/* To change the color of the button and the text when them :hover*/
+
+.preview-card--sedans {
+  background-color: #e28625;
+  color: #e28625;
+}
+
+.preview-card--suvs {
+  background-color: #006971;
+  color: #006971;
+}
+
+.preview-card--luxury {
+  background-color: #004140;
+  color: #004140;
+}
+
+.preview-card__icon-area {
+  margin-bottom: 10px;
+}
+
+.preview-card__icon {
+  display: block;
+}
+
+.preview-card__content-area {
+  /* empty */
+}
+
+.preview-card__title {
+  display: block;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+
+  margin-bottom: 25px;
+}
+
+.preview-card__description {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.preview-card__button-area {
+  /* empty */
+}
+
+.preview-card__button:link,
+.preview-card__button:visited {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: inherit;
+
+  /* To center the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* To add the padding */
+  width: 146px;
+  height: 48px;
+  background: #f2f2f2;
+  border-radius: 25px;
+}
+
+.preview-card__button:hover,
+.preview-card__button:active {
+  color: #fff;
+  background-color: inherit;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+}
