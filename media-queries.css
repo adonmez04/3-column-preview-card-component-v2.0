@@ -22,4 +22,8 @@
   .preview-card__description {
     margin-bottom: 58px;
   }
+
+  main {
+    translate: 0 10px;
+  }
 }
