@@ -143,6 +143,6 @@ body {
 .preview-card__button:active {
   color: #fff;
   background-color: inherit;
-  border: 2px solid #ffffff;
+  outline: 2px solid #ffffff;
   border-radius: 25px;
 }
