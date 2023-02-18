@@ -127,6 +127,8 @@ body {
   line-height: 25px;
   color: inherit;
 
+  transition: all 0.3s;
+
   /* To center the text */
   display: flex;
   justify-content: center;
