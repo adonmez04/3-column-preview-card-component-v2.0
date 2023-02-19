@@ -37,8 +37,7 @@ In this project, there is a hierarchy problem. The preview-card areas are the it
 
 1. From Dave Quah:
    I think one thing that could be improved on is the heading levels. I'd view "Sedans", "SUVs" and "Luxury" as the same heading, but I also understand that we do not want multiple `<h1>`.
-
-I think it would be better to declare a `<h1>` but set it for screen readers only (meaning not visible but screen reader would still pick it up), and keep "Sedans" as a `<h2>` with "SUVs" and "Luxury". E.g.
+   I think it would be better to declare a `<h1>` but set it for screen readers only (meaning not visible but screen reader would still pick it up), and keep "Sedans" as a `<h2>` with "SUVs" and "Luxury". E.g.
 
 // CSS
 
