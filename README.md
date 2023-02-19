@@ -35,7 +35,7 @@ I couldn't understand how to fix component size without width and height propert
 
 In this project, there is a hierarchy problem. The preview-card areas are the iteration items and all iteration items should have the same property and structure. However, the page must have at least one h1 tag. It's a clear problem that I couldn't solve. However thanks to Dave Quah's feedback, I have a solution right now.
 
-1 - From Dave Quah:
+**1 - From Dave Quah:**
 
 I think one thing that could be improved on is the heading levels. I'd view "Sedans", "SUVs" and "Luxury" as the same heading, but I also understand that we do not want multiple `<h1>`.
 
