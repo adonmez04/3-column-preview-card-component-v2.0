@@ -148,3 +148,14 @@ body {
   border: 0.125rem solid #ffffff;
   border-radius: 1.5625rem;
 }
+
+/* To h1 tag for screen readers */
+.sr-only {
+  position: absolute;
+  top: auto;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
